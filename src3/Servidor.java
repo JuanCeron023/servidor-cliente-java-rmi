@@ -8,7 +8,7 @@ public class Servidor {
 			//archivos del servidor//localhost
 			System.setProperty("java.rmi.server.codebase","file:/c/RMI/src/");
 			Interface i = new Implementacion();
-			Naming.rebind("rmi://192.168.0.17/Polinomio", i);
+			Naming.rebind("rmi://192.168.0.10/Polinomio", i);
 		}	
 		catch(Exception Ex)
 		{
