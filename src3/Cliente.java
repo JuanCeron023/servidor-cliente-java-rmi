@@ -23,7 +23,7 @@ public class Cliente {
 			int[] polinomioA;
 			int[] polinomioB;
 			int[] resultado;
-			Interface i = (Interface) Naming.lookup("rmi://192.168.0.17/Polinomio");
+			Interface i = (Interface) Naming.lookup("rmi://192.168.0.10/Polinomio");
 		System.out.println("Digite su opcion");
 		Scanner sc = new Scanner (new InputStreamReader(System.in));
 		Seleccion = sc.nextInt();
