@@ -1,4 +1,5 @@
 c/rmi/src
-javac *.java
 
+javac *.java
+rmic Implementacion
 rmiregistry
